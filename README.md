@@ -1,4 +1,20 @@
 -------------
+NuAudioTool V1.01.000 SP2
+-------------
+Based On NuAudioTool_V1.01.000 SP1.
+[Bug Fix]
++ fail to open UltraIO to edit on resource window
++ fail to preview resource and equation on resource window
+
+-------------
+NuAudioTool V1.01.000 SP1
+-------------
+Based On NuAudioTool V1.01.000.
+
+[Features]
++ delete chip NSC74128
+
+-------------
 NuAudioTool V1.01.000
 -------------
 Based On NuAudioTool_V1.00.000 SP2.
@@ -7,7 +23,7 @@ Based On NuAudioTool_V1.00.000 SP2.
 + Support chip NSC74128/NSC74256/NSC74512/NSC741K0/NSC741K5
 + Create "C:\Nuvoton\NuAudioTool\Workbench" to map current install folder
 + Support command mode to build [*.nat] project using for Keil project post-build
-  ex. 
+  - example:
     "C:\Nuvoton\NuAudioTool\Workbench\Bin\NuAudioTool.exe" ".\NuProj.nat" -rebuild
     "C:\Nuvoton\NuAudioTool\Workbench\Bin\NuAudioTool.exe" ".\NuProj.nat" -build
 
