@@ -1,4 +1,16 @@
 ---------------------
+NuVoice Gang Writer V1.03.000 SP2
+---------------------
+[Bug-Fxied]
++ fix to calculate CRC32 value is wrong problem if the file size is more than 2M bytes
+
+---------------------
+NuVoice Gang Writer V1.03.000 SP1
+---------------------
+[Features]
++ support to show CRC32 information when the file (APROM、LDROM、DataFlash、SPI-Flash) is selected
+
+---------------------
 NuVoice Gang Writer V1.03.000 
 ---------------------
 [Features]
