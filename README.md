@@ -56,9 +56,9 @@ N570 SDS V5.01.000 SP7
   - API does not need to add SPIFlash.c into project.
 + Recommend to predefine SPIFlash bit mode in project setting at using SPIMFlash.c.
   - Please add the following definition in 'Project'->'Options for target'->'C/C++'->'PreProcessor Symbols'->'Define'
-     SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
-     SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
-     SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
+     * SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
+     * SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
+     * SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
   - Supported quad mode SPI flash for SPIM interface: W25Q16BV, W25Q16DVS, W25Q64DW
 + If using NAND flash in AudioCodec samples, please set SPIMFlash_NAND - 1 in the project setting pre-define.
   - In beginning of the header files of SPIFlash and SPIMFlash, there are description of how to define the setting.
@@ -102,10 +102,8 @@ N570 SDS V5.01.000 SP3
 + ISP_UART sample project setting not choose corret debugger.
 
 [Note]
-+ If using NAND flash in AudioCodec samples, please set 
-   SPIMFlash_NAND - 1 in the project setting pre-define.
-   In beginning of the header files of SPIFlash and SPIMFlash,
-   there are description of how to define the setting.
++ If using NAND flash in AudioCodec samples, please set SPIMFlash_NAND - 1 in the project setting pre-define.
++ In beginning of the header files of SPIFlash and SPIMFlash, there are description of how to define the setting.
 
 ----------
 N570 SDS V5.01.000 SP2
@@ -120,11 +118,11 @@ N570 SDS V5.01.000 SP2
 + The revised SPI-Flash library can be used separately. Calling SPIMFlash
    API does not need to add SPIFlash.c into project.
 + Recommend to predefine SPIFlash bit mode in project setting at using SPIMFlash.c.
-    Please add the following definition in 'Project'->'Options for target'->'C/C++'->'PreProcessor Symbols'->'Define'
-     SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
-     SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
-	 SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
-	Supported quad mode SPI flash for SPIM interface: W25Q16BV, W25Q16DVS, W25Q64DW
+  - Please add the following definition in 'Project'->'Options for target'->'C/C++'->'PreProcessor Symbols'->'Define'
+    * SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
+    * SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
+	* SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
+  - Supported quad mode SPI flash for SPIM interface: W25Q16BV, W25Q16DVS, W25Q64DW
 
 ----------
 N570 SDS V5.01.000 SP2
@@ -140,11 +138,11 @@ N570 SDS V5.01.000 SP2
    API does not need to add SPIFlash.c into project.
 
 + Recommend to predefine SPIFlash bit mode in project setting at using SPIMFlash.c.
-    Please add the following definition in 'Project'->'Options for target'->'C/C++'->'PreProcessor Symbols'->'Define'
-	 SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
-	 SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
-	 SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
-   Supported quad mode SPI flash for SPIM interface: W25Q16BV, W25Q16DVS, W25Q64DW
+  - Please add the following definition in 'Project'->'Options for target'->'C/C++'->'PreProcessor Symbols'->'Define'
+	* SPIFLASH_INTERFACE_MODE - 0 // One-bit Mode
+	* SPIFLASH_INTERFACE_MODE - 1 // Dual Mode
+	* SPIFLASH_INTERFACE_MODE - 2 // Quad Mode
+  - Supported quad mode SPI flash for SPIM interface: W25Q16BV, W25Q16DVS, W25Q64DW
 
 ----------
 N570 SDS V5.01.000 SP1
