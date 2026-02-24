@@ -2,7 +2,8 @@
 ICP tool, Nulink Keil driver and command tool 
 ----------
 V7946r
-1. Added supported microcontroller:
+1. Added supported microcontroller
+
    – Nuvoton M0 Family: Nano100NC2BN, TX110VE3BN.
    – Nuvoton M23 Family: M2003G and KM1M2 series.
    – Nuvoton M33 Family: M3351 series.
