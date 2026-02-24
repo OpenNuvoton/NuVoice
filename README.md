@@ -5,11 +5,17 @@ V7946r
 1. Added supported microcontroller
 
    – Nuvoton M0 Family: Nano100NC2BN, TX110VE3BN.
+   
    – Nuvoton M23 Family: M2003G and KM1M2 series.
+   
    – Nuvoton M33 Family: M3351 series.
+   
    – Nuvoton M4 Family: N577 series.
+   
    – Nuvoton M7 Family: KM1M7C series.
+   
    – CM2052/CM2053 series.
+   
 3. Support Nu-Link2 V3.
 4. Support Nu-Link3.
 5. Nu-Link USB Driver update version to v1.12.
