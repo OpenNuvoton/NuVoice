@@ -9,9 +9,9 @@ V7946r
    – Nuvoton M4 Family: N577 series.
    – Nuvoton M7 Family: KM1M7C series.
    – CM2052/CM2053 series.
-2. Support Nu-Link2 V3.
-3. Support Nu-Link3.
-4. Nu-Link USB Driver update version to v1.12.
+3. Support Nu-Link2 V3.
+4. Support Nu-Link3.
+5. Nu-Link USB Driver update version to v1.12.
 
 V7873b
 1. Fixed an issue where the security bit set in offline mode could not be erased using the chip erase command on the I94100/I941A00 series.
