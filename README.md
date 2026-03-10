@@ -1,4 +1,13 @@
 -----------
+N574 SDSV1.06.000 SP2
+-----------
+Based on SP1.
+
+[Features]
++ Add SampleCode\AudioCodec\AddrLED.
++ Add SampleCode\Keypad\TouchKey.
+
+-----------
 N574 SDSV1.06.000 SP1
 -----------
 [Features]
