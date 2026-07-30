@@ -13,3 +13,4 @@ NuVoice Tools installer
 - [NuGang Writer Tool] V1.03.000+SP2
 - [NuVoiceFormGen Tool] V1.03.021
 - [NuLink Tool] V3.22.7946r
+- [NuFrameEditor Tool] V1.00.000
