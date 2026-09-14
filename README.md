@@ -9,8 +9,9 @@ NuVoice SDS installer
 -------------
 NuVoice Tools installer
 -------------
-- [NuAudio Tool] V1.01.000+SP5
+- [NuAudio Tool] V1.01.000+SP6
 - [NuGang Writer Tool] V1.03.000+SP2
 - [NuVoiceFormGen Tool] V1.03.021
 - [NuLink Tool] V3.22.7946r
 - [NuFrameEditor Tool] V1.00.000
+- [NuCapTouch Tool] V1.01.000
