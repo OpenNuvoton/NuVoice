@@ -1,6 +1,16 @@
 ----------
 ICP tool, Nulink Keil driver and command tool 
 ----------
+V7977b
+1. Fixed programming support for Flash devices without protection functionality.
+
+V7976b
+1. Add SFDP support to determine the SPI Flash size on the N574 series.
+2. Add SPI Flash protection support for 4 Mbit to 128 Mbit devices on the N574 series.
+3. Fixed the LDROM address range for the NSC series.
+4. Fixed an issue where the SPI Flash size could not be read correctly.
+
+
 V7946r
 1. Added supported microcontroller
 
